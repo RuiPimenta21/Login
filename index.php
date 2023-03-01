@@ -77,4 +77,10 @@
             //echo '<script type="text/JavaScript">console.log("aaa6")</script>';
         }
     }
+
+    // remove all session variables
+    session_unset();
+
+    // destroy the session
+    session_destroy();
 ?>
